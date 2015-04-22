@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="61893d74-b691-42e0-942c-8b276ce0c569" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.1ffd8913-27a4-4bf9-8106-7fe4b44f60b9.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="cef01c6d-1150-4480-b4a4-b43ccfe24ec1" Version="1.1" Url="http://localhost:12701/api/locations/" ThinkTime="16" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="latitude" Value="-23" RecordedValue="-23" CorrelationBinding="{{QueryStringParam3189.latitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="longitude" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam3190.longitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxResults" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam3191.maxResults}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxDistance" Value="12" RecordedValue="12" CorrelationBinding="{{QueryStringParam3192.maxDistance}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dd6c4fda-d969-4abb-98f2-99cf6aa15c60" Version="1.1" Url="http://localhost:12701/api/locations/" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="latitude" Value="-23" RecordedValue="-23" CorrelationBinding="{{QueryStringParam3361.latitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="longitude" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam3362.longitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxResults" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam3363.maxResults}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxDistance" Value="150000" RecordedValue="150000" CorrelationBinding="{{QueryStringParam3364.maxDistance}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="341a7200-be1e-457a-9a28-2b51ce53b3b0" Version="1.1" Url="http://localhost:12701/api/locations/" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="latitude" Value="50" RecordedValue="50" CorrelationBinding="{{QueryStringParam3593.latitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="longitude" Value="5" RecordedValue="5" CorrelationBinding="{{QueryStringParam3594.longitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxResults" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam3595.maxResults}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxDistance" Value="12" RecordedValue="12" CorrelationBinding="{{QueryStringParam3596.maxDistance}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="14e6ff53-9fec-4f1d-8f7b-7b2ed42a39ba" Version="1.1" Url="http://localhost:12701/api/locations/" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="latitude" Value="50" RecordedValue="50" CorrelationBinding="{{QueryStringParam4587.latitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="longitude" Value="5" RecordedValue="5" CorrelationBinding="{{QueryStringParam4588.longitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxResults" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam4589.maxResults}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxDistance" Value="200000" RecordedValue="200000" CorrelationBinding="{{QueryStringParam4590.maxDistance}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5626176a-a500-4d99-870b-70043e6b8301" Version="1.1" Url="http://localhost:12701/api/locations/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="latitude" Value="50" RecordedValue="50" CorrelationBinding="{{QueryStringParam4723.latitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="longitude" Value="5" RecordedValue="5" CorrelationBinding="{{QueryStringParam4724.longitude}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxResults" Value="23" RecordedValue="23" CorrelationBinding="{{QueryStringParam4725.maxResults}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxDistance" Value="200000" RecordedValue="200000" CorrelationBinding="{{QueryStringParam4726.maxDistance}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
